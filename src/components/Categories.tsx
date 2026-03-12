@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
+import carRims from "../assets/car-rims.jpg";
 
 export default function Categories() {
   const categories = [
@@ -11,7 +12,7 @@ export default function Categories() {
     {
       title: "Custom Rims",
       description: "Stylish alloy rims to elevate your vehicle's look.",
-      image: "/car-rims.jpg",
+      image: carRims,
     },
     {
       title: "Tyre Accessories",

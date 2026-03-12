@@ -1,10 +1,8 @@
 import { motion } from "motion/react";
 import { ArrowRight, MessageCircle } from "lucide-react";
+import heroTyre from "../assets/hero-tyre.png";
 
 export default function Hero() {
-  // Using the uploaded tyre image. 
-  // Note: Please upload your image to the 'public' folder and name it 'hero-tyre.png'
-  const heroTyre = "/hero-tyre.png";
 
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-black">
