@@ -6,7 +6,7 @@ export default function Loader() {
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 3 }}
         className="relative w-48 h-48 md:w-64 md:h-64"
       >
         {/* Outer Tyre SVG with continuous rotation */}
