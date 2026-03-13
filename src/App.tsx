@@ -26,7 +26,7 @@ export default function App() {
     // Reduced loading time so it acts as a quick splash screen
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 800);
+    }, 2500);
 
     return () => clearTimeout(timer);
   }, []);
