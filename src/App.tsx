@@ -23,7 +23,7 @@ export default function App() {
   const [currentPath, setCurrentPath] = useState(window.location.hash);
 
   useEffect(() => {
-    // Reduced loading time so it acts as a quick splash screen
+    // Splash screen timing
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 2500);
