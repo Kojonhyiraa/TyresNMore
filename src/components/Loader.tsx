@@ -6,7 +6,7 @@ export default function Loader() {
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 3 }}
+        transition={{ duration: 0.5 }}
         className="relative w-48 h-48 md:w-64 md:h-64"
       >
         {/* Outer Tyre SVG with continuous rotation */}
@@ -62,7 +62,7 @@ export default function Loader() {
         <motion.div
           initial={{ width: 0 }}
           animate={{ width: "100%" }}
-          transition={{ duration: 3, ease: "easeInOut", repeat: Infinity, repeatType: "reverse", repeatDelay: 0.5 }}
+          transition={{ duration: 1.5, ease: "easeInOut", repeat: Infinity, repeatType: "reverse", repeatDelay: 0.5 }}
           className="overflow-hidden whitespace-nowrap border-r-4 border-[#e11d48] pr-2"
         >
           <h2 className="text-2xl md:text-3xl font-bold font-logo text-[#e11d48] tracking-widest uppercase flex items-center">
