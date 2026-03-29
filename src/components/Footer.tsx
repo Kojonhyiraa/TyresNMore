@@ -74,20 +74,20 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-[#e11d48] mr-3 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-400 text-sm leading-relaxed">
-                  123 Automotive Boulevard,<br />
-                  Motor City, MC 90210
+                  Liberia Road,Ambassadorial,<br />
+                  Accra,Ghana
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 text-[#e11d48] mr-3 flex-shrink-0" />
-                <a href="tel:0256564028" className="text-gray-400 hover:text-[#e11d48] transition-colors text-sm">
-                  +1 (234) 567-890
+                <a href="tel:0246261870" className="text-gray-400 hover:text-[#e11d48] transition-colors text-sm">
+                  0246261870 / 0542724555
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 text-[#e11d48] mr-3 flex-shrink-0" />
-                <a href="mailto:info@tyresnmore.com" className="text-gray-400 hover:text-[#e11d48] transition-colors text-sm">
-                  info@tyresnmore.com
+                <a href="mailto:marianakuatawiah@gmail.com" className="text-gray-400 hover:text-[#e11d48] transition-colors text-sm">
+                  marianakuatawiah@gmail.com
                 </a>
               </li>
             </ul>
