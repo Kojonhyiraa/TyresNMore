@@ -19,16 +19,7 @@ export default function Categories() {
       description: "Essential accessories for maintenance and care.",
       image: "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?q=80&w=1000&auto=format&fit=crop",
     },
-    {
-      title: "Wheel Alignment",
-      description: "Precision alignment for a smoother, safer ride.",
-      image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=1000&auto=format&fit=crop",
-    },
-    {
-      title: "Wheel Balancing",
-      description: "Eliminate vibrations with expert wheel balancing.",
-      image: "https://images.unsplash.com/photo-1504222490345-c075b6008014?q=80&w=1000&auto=format&fit=crop",
-    },
+  
   ];
 
   return (
