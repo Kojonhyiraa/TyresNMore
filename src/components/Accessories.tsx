@@ -5,12 +5,12 @@ export default function Accessories() {
   const accessories = [
     {
       title: "Car Batteries",
-      image: "https://unsplash.com/photos/a-red-pair-of-pliers-sitting-on-top-of-a-car-Q_CJmTlNpAQ?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1607861716497-e65ab29fc7ac?q=80&w=800&auto=format&fit=crop",
       colSpan: "col-span-1 md:col-span-2 lg:col-span-1",
     },
     {
       title: "Engine Oils & Fluids",
-      image: "../assets/engine.png",
+      image: new URL("../assets/engine.png", import.meta.url).href,
       colSpan: "col-span-1 md:col-span-1 lg:col-span-2",
     },
     {
