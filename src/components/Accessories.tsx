@@ -5,7 +5,7 @@ export default function Accessories() {
   const accessories = [
     {
       title: "Car Batteries",
-      image: "https://images.unsplash.com/photo-1607861716497-e65ab29fc7ac?q=80&w=800&auto=format&fit=crop",
+      image: new URL("../assets/battery.png", import.meta.url).href,
       colSpan: "col-span-1 md:col-span-2 lg:col-span-1",
     },
     {
@@ -23,6 +23,11 @@ export default function Accessories() {
       image: "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?q=80&w=800&auto=format&fit=crop",
       colSpan: "col-span-1 md:col-span-1 lg:col-span-1",
     },
+    {
+      title: "Bolts & Fasteners",
+      image: new URL("../assets/bolts.png", import.meta.url).href,
+      colSpan: "col-span-1 md:col-span-2 lg:col-span-1",
+    }
   ];
 
   return (
