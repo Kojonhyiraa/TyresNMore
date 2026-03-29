@@ -5,7 +5,7 @@ export default function Accessories() {
   const accessories = [
     {
       title: "Car Batteries",
-      image: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=800&auto=format&fit=crop",
+      image: "https://unsplash.com/photos/a-red-pair-of-pliers-sitting-on-top-of-a-car-Q_CJmTlNpAQ?q=80&w=800&auto=format&fit=crop",
       colSpan: "col-span-1 md:col-span-2 lg:col-span-1",
     },
     {

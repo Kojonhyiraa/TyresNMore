@@ -57,9 +57,7 @@ export default function Footer() {
               <li><a href="#tyres" className="text-gray-400 hover:text-[#e11d48] transition-colors text-sm">Premium Tyres</a></li>
               <li><a href="#rims" className="text-gray-400 hover:text-[#e11d48] transition-colors text-sm">Custom Rims</a></li>
               <li><a href="#accessories" className="text-gray-400 hover:text-[#e11d48] transition-colors text-sm">Tyre Accessories</a></li>
-              <li><a href="#shop" className="text-gray-400 hover:text-[#e11d48] transition-colors text-sm">Wheel Alignment</a></li>
-              <li><a href="#shop" className="text-gray-400 hover:text-[#e11d48] transition-colors text-sm">Wheel Balancing</a></li>
-            </ul>
+             </ul>
           </motion.div>
 
           {/* Contact Column */}
