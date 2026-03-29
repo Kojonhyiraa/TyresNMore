@@ -10,17 +10,12 @@ export default function Accessories() {
     },
     {
       title: "Engine Oils & Fluids",
-      image: "https://images.unsplash.com/photo-1504222490345-c075b6008014?q=80&w=800&auto=format&fit=crop",
+      image: "../assets/engine.png",
       colSpan: "col-span-1 md:col-span-1 lg:col-span-2",
     },
     {
       title: "Performance Brake Pads",
       image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=800&auto=format&fit=crop",
-      colSpan: "col-span-1 md:col-span-1 lg:col-span-1",
-    },
-    {
-      title: "Premium Wiper Blades",
-      image: "https://images.unsplash.com/photo-1510906594845-bc082582c8cc?q=80&w=800&auto=format&fit=crop",
       colSpan: "col-span-1 md:col-span-1 lg:col-span-1",
     },
     {
